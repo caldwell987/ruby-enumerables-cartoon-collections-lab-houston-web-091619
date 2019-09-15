@@ -6,7 +6,7 @@ def roll_call_dwarves(array)
   end 
 end
 
-roll_call_dwarves(dwarves)
+#roll_call_dwarves(dwarves)
 
 
 
@@ -20,7 +20,7 @@ def summon_captain_planet(array)
   nu_array
 end
 
-summon_captain_planet(planeteer_calls)
+#summon_captain_planet(planeteer_calls)
 
 
 def long_planeteer_calls(array) 
@@ -33,7 +33,7 @@ def long_planeteer_calls(array)
   end 
 end
 
-long_planeteer_calls(call_screams)
+#long_planeteer_calls(call_screams)
 
 
 cheese_types = ["cheddar", "gouda", "camembert"]
@@ -48,7 +48,7 @@ def find_the_cheese(array)
   end 
 end
 
-find_the_cheese(snacks)
+#find_the_cheese(snacks)
 
 
 
@@ -62,3 +62,5 @@ def find_the_cheese2(array, array2)
     cheese_types.include?(type)
   end 
 end
+
+#find_the_cheese2(snacks, cheese_types)

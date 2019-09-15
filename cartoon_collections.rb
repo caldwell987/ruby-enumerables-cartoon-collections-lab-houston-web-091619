@@ -33,14 +33,13 @@ def long_planeteer_calls(array)
   end 
 end
 
-#long_planeteer_calls(call_screams)
 
 
-cheese_types = ["cheddar", "gouda", "camembert"]
-snacks = ["crackers", "gouda", "thyme"]
+
+#cheese_types = ["cheddar", "gouda", "camembert"]
+#snacks = ["crackers", "gouda", "thyme"]
 
 
-# This is the learn.co method that wants the cheese array inside the actual method
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
     array.find do |type|
@@ -48,13 +47,10 @@ def find_the_cheese(array)
   end 
 end
 
-#find_the_cheese(snacks)
-
-
 
 # This is a much better way cause the cheese array isn't included in the method.
-cheese_types = ["cheddar", "gouda", "camembert"]
-snacks = ["crackers", "gouda", "thyme"]
+#cheese_types = ["cheddar", "gouda", "camembert"]
+#snacks = ["crackers", "gouda", "thyme"]
 
 def find_the_cheese2(array, array2)
   cheese_types = array2
@@ -62,5 +58,3 @@ def find_the_cheese2(array, array2)
     cheese_types.include?(type)
   end 
 end
-
-#find_the_cheese2(snacks, cheese_types)
